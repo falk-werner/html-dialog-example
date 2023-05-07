@@ -6,6 +6,8 @@ Example of HTML dialog element.
 
 View this example on [GitHub Pages](https://falk-werner.github.io/html-dialog-example/).
 
+![Dialog](doc/dialog.png)
+
 ## Further Information
 
 - [HTML Dialog Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
