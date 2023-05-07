@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/falk-werner/html-dialog-example/actions/workflows/pages/pages-build-deployment/badge.svg)](GitHub Pages](https://falk-werner.github.io/html-dialog-example/)
+[![pages-build-deployment](https://github.com/falk-werner/html-dialog-example/actions/workflows/pages/pages-build-deployment/badge.svg)](https://falk-werner.github.io/html-dialog-example/)
 
 # HTML Dialog Example
 
