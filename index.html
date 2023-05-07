@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<title>Dialog</title>
+	<style type="text/css">
+	dialog {
+		border: 1px solid black;
+		border-radius:5%;
+		padding: 0;
+		width: 150px;
+	}
+	
+	.dialog-caption {
+		text-weight: bold;
+		background-color: black;
+		color: white;
+	}
+	
+	.dialog-content {
+		margin: 0.5em;
+	}
+	
+	.dialog-options {
+		text-align: right;
+		padding: 0.5em;
+	}
+	
+	</style>
+	<script type="text/javascript">
+	
+	function startup() {
+		const openDialog = document.querySelector("#openDialog");
+		const closeDialog = document.querySelector("#closeDialog");
+		const dialog = document.querySelector("#dialog");
+		
+		openDialog.addEventListener("click", () => {
+			dialog.showModal();
+		}, false);
+		
+		closeDialog.addEventListener("click", () => {
+			dialog.close();
+		}, false);
+	}
+	
+	</script>
+</head>
+<body onload="startup()">
+	<input id="openDialog" type="button" value="Show Dialog" />
+	<dialog id="dialog">
+		<div class="dialog-caption">Notice</div>
+		<div class="dialog-content">Hi, there!</div>
+		<div class="dialog-options">
+			<input id="closeDialog" type="button" value="OK" />
+		</div>
+	</dialog>
+</body>
+</html>
